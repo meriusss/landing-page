@@ -155,3 +155,10 @@ body {
     font-style: italic;
     font-weight: lighter;
 }
+
+.quoteAuthor{
+    text-align: right;
+    margin-right: 490px;
+    font-size: 30px;
+    font-weight: bold;
+}
