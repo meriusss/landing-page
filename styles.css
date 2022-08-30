@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     font-family: "Roboto Flex";
     color:#ffffff;
 }
@@ -21,9 +21,10 @@
 }
 
 .navbar h1{
-    color: #ffffff;
+    color: #f9faf8;
     text-align: left;
-    font-weight: bolder;
+    font-weight: 900;
+    font-size: 24px;
 }
 .navbar div,ul{
     flex: auto;
@@ -31,25 +32,72 @@
 
 .navbar ul{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 16px;
     list-style-type: none;
+    flex-grow: 0.3;
 }
 
 .navbar ul a{
     color: #e5e7eb;
-    margin: 0.5%;
+    padding: 0.5%;
     font-weight: 200;
 }
 
 .contentContainer1 {
-    background-color: #1f2937;
     display: flex;
+    background-color: #1f2937;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15%;
+    padding-right: 15%;
+    height: 400px;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
 }
-.contentContainer1 div{
-    flex: auto;
 
+.text{
+    flex-shrink: 1;
+    flex-grow: 2;
+    flex-basis: 10%;
+    padding-right: 15%;
 }
+
+.text h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.text p{
+    font-size: 18px;
+    font-weight: 200;
+    color: #e5e7eb;
+}
+.text button{
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    font-size: 25px;
+    padding: 8px 40px;
+    border-radius: 10px;
+    font-weight: 900;
+}
+
+.placeholder{
+    flex-shrink: 2;
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+.placeholder img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+
